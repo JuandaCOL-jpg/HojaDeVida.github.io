@@ -1,0 +1,110 @@
+/* Reseteo de estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hoja {
+    background-color: #ffffff;
+    width: 1000px;
+    min-height: 1000px;
+    margin: 30px 0;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.arriba {
+    background-color: #D8BFD8;
+    color: rgb(50, 76, 133);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+.mifoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.informacion {
+    text-align: left;
+}
+
+.nombre {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.apellido {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descripcion1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.izquierda,
+.derecha {
+    padding: 20px;
+}
+
+.izquierda {
+    width: 30%;
+    color: #333;
+    background-color: #E6E6FA;
+    border-right: 2px solid #f3f3f3;
+}
+
+.derecha {
+    width: 70%;
+    color: #333;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    width: 50px;
+}
+
+p,
+ul {
+    font-size: 16px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para los íconos */
+.contacto i {
+    color: #555;
+    margin-right: 10px;
+}
